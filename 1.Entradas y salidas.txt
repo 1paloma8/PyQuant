@@ -1,0 +1,102 @@
+1.Entradas y salidas 
+2.constantes y variables (tipos de datos)
+3.operadores 
+4.estructura de control condicional 
+5.estructura de control cíclica
+6.funciones 
+
+
+
+desarrollo 
+
+En la siguiente presentación encontraras los siguientes conceptos que te ayudaran al aprendizaje de Python :
+
+  ENTRADAS :
+Las entradas son datos que es usuario proporciona al programa  mientras que las salidas  son los datos que el programa muestra como resultado 
+para una entrada usamos input() y para la salida usamos print ()
+
+EJEMPLO: 
+             NOMBRE INPUT ("INGRESA TU NOMBRE ") -----> ESTA SERIA LA ENTRADA 
+	     PRINT ( NOMBRE)------> SALIDA 
+
+
+
+CONSTANTES Y VARIABLES :
+
+Variable  es un espacio en memoria que almacena un valor que puede cambiar durante la ejecución
+ del programa 
+
+Constante  es un valor fijo que no cambia , se escribe en mayúscula por convención 
+
+EJEMPLO:
+ 
+	edad = 25      ------------>     son tipo  entero 
+	nombre = hingry  ----------->   son tipo  cadena de texto 
+	GRAVEDAD DE LA TIERRA ---------> 9.81 constante que representa la gravedad de la tierra
+
+
+OPERADORES:
+Los operadores permiten realizar  operaciones como aritméticos que nos sirve para cálculos matemáticos
+lógicos para evaluar condiciones lógicas y comparación para comparar valores 
+
+
+EJEMPLO :
+
+	RESULTADO = 10+5 ------>    SUMA
+	ES MAYOR =  10 <(MENOR ) 5 ------>  COMPARACION  TRUE 
+	VERDADERO = TRUE AND FALSE  OPERADOR LOGICO 
+
+
+   ESTRUCTURA  DE CONTROL CONDICIONAL :
+
+Permite ejecutar diferentes bloques de código según se cumpla o no su condición, usar (if) para verificar una condición , usar (else9  para ejecutar código cuando la condición no cumple.
+
+
+EJEMPLO :
+
+ EDAD = INT(8INPUT("INGRESA TU EDAD : "))
+	IF  EDAD > = 18:
+	  PRINT("ERES MAYOR DE EDAD ")
+        ELSE :
+	   PRINT ("ERES MENOR DE EDAD")
+
+
+ESTRUCTURA DE CONTROL CICLICA :
+
+Son estructuras de código que permiten repetir un bloque de código varias veces , ciclo (while) se ejecuta mientras una condición sea verdadera es útil cuando no sabemos cuantas veces se repetirá el bucle  y ciclo (for)  se usa  cuando sabemos cuantas veces queremos repetir un bloque de código normalmente se usa con la función ( range () )
+
+EJEMPLO: ( iteración : se repite varias veces )
+
+        contador = 1 
+	while  contador <= 5 --------> se ejecuta mientras contador sea menor o igual a 5 
+	   print("iteración", contador )
+	   contador + = 1 ---------> incrementa el contador para evitar un bucle infinito 
+		
+
+
+
+      for i in range (5): -----------> itera desde 0 hasta 4  siempre se ingresa un numero de mas 
+	print("iteración", i)
+
+
+NOTA : for también lo podemos utilizar para  recorrer elementos  de una lista 
+
+
+FUNCIONES:
+
+Son bloques de códigos  reutilizables que realizan una tarea especifica , definir una función  con (def)esta se llama para ejecutarla 
+
+
+EJEMPLO :
+ DEF  SALUDAR (NOMBRE ):
+  PRINT (" HOLA", NOMBRE)
+  SALUDAR  (" HINGRY")
+
+
+
+
+
+
+
+
+
